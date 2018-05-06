@@ -33,6 +33,12 @@ html {
   font-size: 12vmin;
   color: white;
   font-family: 'Vollkorn', serif;
+  opacity: .2;
+}
+
+#intro .brand-heading:hover {
+
+  opacity: 1.0;
 }
 
 #about {
@@ -126,7 +132,7 @@ iframe {
   height: 100%;
   padding: 60px 0;
   text-align: center;
-  background: #eee;
+  background: #eee;  
 }
 
 #contact-form {
@@ -156,4 +162,6 @@ i {
 
 .circle-icon:hover {
   background-color: #eee;
+  transform: scale(1.1);
+  cursor: pointer;
 }
