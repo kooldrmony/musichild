@@ -168,3 +168,121 @@ i {
   transform: scale(1.7);
   cursor: pointer;
 }
+
+/*Mobile Phone Media Query Responsivness*/
+
+@media screen and (max-width: 640px){
+
+  #intro {
+    width: 100%;
+    height: 600px;
+    padding: 15% 0;
+    text-align: center;
+    background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+
+#intro .brand-heading{
+  font-size: 8vmin;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  opacity: .2;
+}
+
+ #work {
+    height: 50%;
+    margin-bottom: 0px;
+    padding-top: 70px;
+    text-align: center;
+    background: #fff;
+} 
+
+#contact {
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: #eee;  
+}
+
+#contact-form {
+  font-size: 3.7vmin;
+}
+
+#studio {
+
+  height: 100px;
+  width: 100px;
+  
+}
+
+#proTools {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+#starCity {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+#image {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+#intro .brand-heading h1 {
+
+font-size: 4vmin;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  opacity: .2;
+
+}
+
+#about h1 {
+  text-align: center;
+  font-size: 8vmin;
+}
+
+#about h2 {
+  font-size: 3.5vmin;
+}
+
+h3 {
+  font-size: 1.5vmin;
+}
+
+h4 {
+  font-size: 1.5vmin;
+}
+
+p {
+  font-size: 3.5vmin;
+}
+
+iframe {
+    width: 285px;
+    height: 185px;
+    display: inline;
+    margin: 0 auto;
+    /*border-radius: 50%;*/
+    /*padding: 20px;*/
+}
+
+footer {
+  /*width: 100%;*/
+  margin-top: 100px;
+  padding: 20px;
+  height: 80px;
+  background-color: #222;
+}
+}
