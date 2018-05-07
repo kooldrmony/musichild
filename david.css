@@ -175,19 +175,19 @@ i {
 
   body {
     width: 100%;
-    height: 80%;
+    height: 60%;
     font-family: 'Arvo', sans-serif;
 }
 
 html {
     width: 100%;
-    height: 85%;
+    height: 95%;
 }
 
   #intro {
     width: 100%;
-    height: 440px;
-    padding: 5% 0;
+    height: 375px;
+    padding: 0%;
     text-align: center;
     background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
   -webkit-background-size: cover;
