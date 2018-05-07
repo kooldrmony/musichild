@@ -193,14 +193,17 @@ html {
 }
 
 #intro {
+    /*margin: 0px;*/
     width: 100%;
     height: 100%;
-    padding: 15% 0;
+    padding: 15%;
     text-align: center;
     background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
