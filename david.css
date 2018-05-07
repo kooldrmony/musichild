@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 100%;
+    height: 50%;
     font-family: 'Arvo', sans-serif;
 }
 
@@ -175,7 +175,7 @@ i {
 
   #intro {
     width: 100%;
-    height: 600px;
+    height: 100px;
     padding: 15% 0;
     text-align: center;
     background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
@@ -185,11 +185,16 @@ i {
   background-size: contain;
 }
 
-#intro .brand-heading{
+#intro .brand-heading {
   font-size: 8vmin;
   color: white;
   font-family: 'Vollkorn', serif;
   opacity: .2;
+}
+
+#about {
+  background: #eee;
+  padding: 40px 0;
 }
 
  #work {
@@ -239,7 +244,7 @@ i {
 
 }
 
-#intro .brand-heading h1 {
+#intro h1 {
 
 font-size: 4vmin;
   color: white;
@@ -280,9 +285,9 @@ iframe {
 
 footer {
   /*width: 100%;*/
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 20px;
-  height: 80px;
+  height: 50px;
   background-color: #222;
 }
 }
