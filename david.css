@@ -195,7 +195,7 @@ i {
 #intro {
     /*margin: 0px;*/
     /*width: 100%;*/
-    /*height: 100%;*/
+    height: 30%;
     /*padding: 15%;*/
     /*text-align: center;*/
     /*background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; */
@@ -204,15 +204,17 @@ i {
   /*-o-background-size: contain;*/
    /*background-position: center;*/
   /*background-repeat: no-repeat;*/
-  /*background-size: contain;*/
+  background-size: contain;
+  background-position: top;
+  /*background-top: 200px;*/
 }
 
-/*#intro .brand-heading{
-  font-size: 3vmin;
+#intro .brand-heading{
+  font-size: 6vmin;
   color: white;
   font-family: 'Vollkorn', serif;
   opacity: .2;
-}*/
+}
 
 /*#intro .brand-heading:hover {
 
