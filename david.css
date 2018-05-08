@@ -173,15 +173,15 @@ i {
 @media screen and (max-width: 640px){
 
   body {
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     font-family: 'Arvo', sans-serif;
 }
 
-html {
+/*html {
     width: 100%;
     height: 100%;
-}
+}*/
 
 .navbar {
   font-family: 'Lato', sans-serif;
@@ -194,42 +194,42 @@ html {
 
 #intro {
     /*margin: 0px;*/
-    width: 100%;
-    height: 100%;
-    padding: 15%;
-    text-align: center;
-    background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*padding: 15%;*/
+    /*text-align: center;*/
+    /*background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; */
+  /*-webkit-background-size: contain;*/
+  /*-moz-background-size: contain;*/
+  /*-o-background-size: contain;*/
+   /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
 }
 
-#intro .brand-heading{
+/*#intro .brand-heading{
   font-size: 3vmin;
   color: white;
   font-family: 'Vollkorn', serif;
   opacity: .2;
-}
+}*/
 
-#intro .brand-heading:hover {
+/*#intro .brand-heading:hover {
 
   opacity: 1.0;
 }
-
+*/
 /*#intro .brand-heading p {
 font-size: 1vmin;
 }*/
 
 #about {
   background: #eee;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 h1 {
-  font-size: 2.5vmin;
+  font-size: 1.5vmin;
 }
 
 #about h1 {
@@ -290,9 +290,9 @@ h4 {
 }
 
  #work {
-    height: 100%;
-    margin-bottom: 30px;
-    padding-top: 150px;
+    height: 36%;
+    margin-bottom: 10px;
+    padding-top: 20px;
     text-align: center;
     background: #fff;
 } 
@@ -311,8 +311,8 @@ iframe {
 }*/
 
 #contact {
-  height: 100%;
-  padding: 150px 0;
+  height: 90%;
+  padding: 50px 0;
   text-align: center;
   background: #eee;  
 }
@@ -323,7 +323,7 @@ iframe {
 
 footer {
   /*width: 100%;*/
-  margin-top: 147px;
+  margin-top: 27px;
   padding: 20px;
   height: 80px;
   background-color: #222;
