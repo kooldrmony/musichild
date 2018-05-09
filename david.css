@@ -531,3 +531,172 @@ i {
   cursor: pointer;
 }
 } 
+
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arvo', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 3.2vmin;
+}
+
+#intro {
+    width: 100%;
+    padding: 15% 0;
+    text-align: center;
+    background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#intro .brand-heading{
+  font-size: 12vmin;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  opacity: .2;
+}
+
+#intro .brand-heading:hover {
+
+  opacity: 1.0;
+}
+
+#about {
+  background: #eee;
+  padding: 80px 0;
+}
+
+#contact h1 {
+  font-size: 5.5vmin;
+}
+
+#about h1 {
+  text-align: center;
+  font-size: 8vmin;
+}
+
+#about h2 {
+  font-size: 5.2vmin;
+}
+
+h3 {
+  font-size: 4.5vmin;
+}
+
+h4 {
+  font-size: 3.5vmin;
+}
+
+p {
+  font-size: 2.5vmin;
+}
+
+.vector-img {
+  height: 60px;
+  border-color: #505050;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+#studio {
+
+  height: 260px;
+  width: 260px;
+  
+}
+
+#proTools {
+
+  height: 260px;
+  width: 260px;
+
+}
+
+#starCity {
+
+  height: 260px;
+  width: 260px;
+
+}
+
+#image {
+
+  height: 260px;
+  width: 260px;
+
+}
+
+ #work {
+    height: 100%;
+    margin-bottom: 30px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+} 
+
+iframe {
+    width: 885px;
+    height: 585px;
+    display: inline;
+    margin: 0 auto;
+    /*border-radius: 50%;*/
+    /*padding: 20px;*/
+}
+
+
+#contact {
+  height: 100%;
+  padding: 65px 0;
+  text-align: center;
+  background: #eee;  
+}
+
+#contact-form {
+  font-size: 2.7vmin;
+}
+
+footer {
+  /*width: 100%;*/
+  margin-top: 147px;
+  padding: 20px;
+  height: 80px;
+  background-color: #222;
+}
+
+i {
+  color: #222;
+  size: 20px;
+}
+
+.circle-icon {
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.circle-icon:hover {
+  background-color: #eee;
+  transform: scale(1.7);
+  cursor: pointer;
+}
+}
