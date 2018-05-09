@@ -382,8 +382,8 @@ html {
   /*-webkit-background-size: contain;*/
   /*-moz-background-size: contain;*/
   /*-o-background-size: contain;*/
-   /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
+   background-position: center;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: 60% 14%;
   /*background-top: 200px;*/
