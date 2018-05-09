@@ -191,7 +191,7 @@ i {
 
 #intro {
     /*margin: 50px;*/
-    width: 100%;*
+    width: 100%;
     height: 39%;
     /*padding: 15%;*/
     /*text-align: center;
@@ -202,7 +202,7 @@ i {
    /*background-position: center;*/
   /*background-repeat: no-repeat;*/
   background-size: contain;
-  background-position: 0% 18%;
+  background-position: 0% 11%;
   /*background-top: 200px;*/
 }
 
@@ -237,7 +237,7 @@ h1 {
 }
 
 #about h2 {
-  font-size: 3.2vmin;
+  font-size: 4.2vmin;
 }
 
 h3 {
@@ -390,7 +390,7 @@ html {
 }
 
 #intro .brand-heading{
-  font-size: 8vmin;
+  font-size: 10vmin;
   color: white;
   font-family: 'Vollkorn', serif;
   opacity: .2;
