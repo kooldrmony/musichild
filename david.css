@@ -167,7 +167,7 @@ i {
 
 /*Mobile Phone Media Query Responsivness*/
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
 
   body {
     /*width: 100%;*/
