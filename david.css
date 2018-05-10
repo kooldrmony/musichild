@@ -191,32 +191,32 @@ i {
 #intro {
     /*margin: 50px;*/
     width: 100%;
-    height: 39%;
-    /*padding: 15%;*/
-    /*text-align: center;
-    /*background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; */
-  /*-webkit-background-size: contain;*/
+    height: 50%;
+    padding: 11%;
+    text-align: center;
+    background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
+  /*-webkit-background-size: contain;
   /*-moz-background-size: contain;*/
   /*-o-background-size: contain;*/
    /*background-position: center;*/
   /*background-repeat: no-repeat;*/
   background-size: contain;
   background-position: 0% 11%;
-  /*background-top: 200px;*/
 }
 
 #intro .brand-heading{
-  font-size: 7vmin;
+  /*padding: 10px;*/
+  font-size: 6vmin;
   color: white;
   font-family: 'Vollkorn', serif;
   opacity: .2;
 }
 
-/*#intro .brand-heading:hover {
+#intro .brand-heading:hover {
 
   opacity: 1.0;
 }
-*/
+
 /*#intro .brand-heading p {
 font-size: 1vmin;
 }*/
@@ -310,7 +310,7 @@ iframe {
 
 #contact {
   height: 90%;
-  padding: 30px 0;
+  padding: 0px 0;
   text-align: center;
   background: #eee;  
 }
@@ -376,13 +376,13 @@ html {
     /*margin: 50px;*/
     width: 100%;
     height: 100%;
-    /*padding: 15%;*/
-    /*text-align: center;*/
-    /*background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; */
-  /*-webkit-background-size: contain;*/
-  /*-moz-background-size: contain;*/
-  /*-o-background-size: contain;*/
-   /*background-position: center;*/
+    padding: 15%;
+    text-align: center;
+    background:  url(https://static.wixstatic.com/media/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.jpg/v1/fill/w_908,h_540,al_c,q_85/cf14a4_56b74279e62a4bcdb3cbfc3a51a64cbe~mv2.webp) no-repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0% 20%;
@@ -395,11 +395,11 @@ html {
   opacity: .2;
 }
 
-/*#intro .brand-heading:hover {
+#intro .brand-heading:hover {
 
   opacity: 1.0;
 }
-*/
+
 /*#intro .brand-heading p {
 font-size: 1vmin;
 }*/
@@ -472,8 +472,8 @@ h4 {
 
  #work {
     height: 36%;
-    margin-bottom: 120px;
-    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
 } 
@@ -493,7 +493,7 @@ iframe {
 
 #contact {
   height: 160%;
-  padding: 30px 0;
+  padding: 0px 0;
   text-align: center;
   background: #eee;  
 }
