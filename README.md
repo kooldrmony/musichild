@@ -4,5 +4,5 @@ This project was created for a client for his business. The website showcases so
 
 ## How to Access
 
-To access click on this link [link](https://kooldrmony.github.io/musichild/).
+To access click on this [link](https://kooldrmony.github.io/musichild/).
 
